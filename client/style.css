@@ -1,0 +1,91 @@
+BODY{
+background-color: rgb(255, 255, 255);  
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+align-items: center;
+justify-content: start;
+flex-direction: column;
+}
+.btn{
+    font-size: 0.8em;
+    background-color: rgb(65, 126, 206);
+color: white;
+text-align: center;
+padding:5px;
+border-radius: 2px;
+border:none;
+font-weight: bold;
+}
+
+.ln{
+   display: flex; 
+   margin-top:10px;
+   width:100%;
+   justify-content:stretch;
+   align-items: center;
+   flex-direction: row;
+   /* border:1px solid red; */
+
+}
+.entete{
+    margin:0px;
+    padding: 3px;
+    width:100%;
+    background-color: rgb(65, 126, 206);
+       justify-content: space-evenly;
+}
+.fav{
+    background-color: white;
+    color: rgb(65, 126, 206);
+    font-weight: bolder;
+    height:1.8em;
+}
+
+
+#setFav{
+    /* font-size: 1em; */
+    /* width: 0em; */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#openFav{
+    flex-grow: 1;
+    margin-left: 3px;
+}
+.boutonNormal{
+    flex-grow: 2;
+    /* z-index: 0; */
+    /* margin-left:2px;
+    margin-right: 2px; */
+}
+.icone{
+/* height: 98%; */
+height: 1em;
+}
+.btn:hover{
+    /* background-color:rgb(203, 225, 255); */
+    /* box-shadow:0px 0px 4px 0px rgba(0, 0, 0, 0.6) ; */
+    box-shadow: 0px 0px 5px 3px rgb(165, 202, 255);
+}
+/* button:focus{
+    outline-color:rgba(0, 0, 0, 0.6)  ;
+    outline-width: 4px ;
+} */
+/* #setFav:active{
+    background-color:rgb(203, 225, 255); 
+  } */
+.btn:focus, .fav:focus{
+    outline: none ;
+    box-shadow: 0px 0px 5px 3px rgb(165, 202, 255);
+
+    }
+    .txtSmall{
+        font-size: 0.7em;
+    }
+    #goControlRef{
+        /* z-index: 1; */
+        margin-left: 3px;
+        margin-right: 3px;
+    }

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Outils Catalogue</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="ln entete">
+        <!-- <button class="btn fav" id="setFav">  -->
+            <!-- <img class="icone" src="arrow.svg">  -->
+            <img class="btn fav icone" id="setFav" src="arrow.svg"> 
+        <!-- </button> -->
+        <button class="btn fav" id="openFav"> Ouvrir le favori </button>
+    </div>
+    <div class="ln">
+        <button class="btn boutonNormal" id="pageControl"> Contrôler la pagination</button>
+    </div>
+    <div class='ln' id='controlOnRef'>
+        <img class="btn fav icone" id="setRefSearchConfig" src="param.svg">      
+        <button class="btn boutonNormal txtSmall" id="goControlRef">
+            Contrôle des duplications de réfs
+        </button>
+        <input type="checkbox" id='onBook' name='onBook' value='false'><label>Livre</label>
+    </div>
+    <!-- 2) A button 
+    <button id="okButton">Open</button>-->
+
+    <!-- 3) Add your script dependencies here, including CEP's CSInterface.js library -->
+    <script type="text/javascript" src="../CSInterface/CSInterface9.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+
+</body>
+
+</html>
